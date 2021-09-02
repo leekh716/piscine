@@ -1,0 +1,46 @@
+.Insert {
+	display: flex;
+	background: #697078;
+}
+.section-input {
+	display: flex;
+	flex: 1 auto;
+
+}
+.todo {
+	display: flex;
+	text-align: center;
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	color: white;
+	text-align: left;
+	flex: 1 auto;
+	padding: 0.5rem;
+}
+.section-button {
+	display: flex;
+}
+.todo::placeholder {
+	color: #dee2e6;
+	font-size: 1.125rem;
+}
+button {
+	background: none;
+	outline: none;
+	border: none;
+	background: #868e96;
+	color: white;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1.125rem;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.1s background ease-in;
+}
+button:hover {
+	background: #adb5bd;
+}
